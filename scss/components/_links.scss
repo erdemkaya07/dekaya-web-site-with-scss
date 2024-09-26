@@ -1,7 +1,11 @@
 a {
   @include links;
   text-decoration: none;
+  color: var(--color-primary);
+  transition: all 0.8s ease-in-out;
   &:hover, &:focus {
     text-decoration: underline;
+    color: var(--color-secondary);
+    transition: all 0.8s ease-in-out;
   }
 }
