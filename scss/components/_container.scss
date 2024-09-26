@@ -9,10 +9,19 @@
 }
 
 .container {
+  @include mobile {
+    max-width: 540px;
+  }
   @include tablet {
     max-width: 720px;
   }
+  @include small-screen {
+    max-width: 960px;
+  }
   @include desktop {
-    max-width: 1400px;
+    max-width: 1140px;
+  }
+  @include ultra-wide {
+    max-width: 1320px;
   }
 }

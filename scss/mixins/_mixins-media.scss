@@ -1,17 +1,29 @@
+@mixin mobile {
+  @media (width > 576px) {
+    @content;
+  }
+}
+
 @mixin tablet {
-  @media (min-width: 768px) {
-    @content
+  @media (width > 768px) {
+    @content;
+  }
+}
+
+@mixin small-screen {
+  @media (width > 992px) {
+    @content;
   }
 }
 
 @mixin desktop {
-  @media (min-width: 1400px) {
-    @content
+  @media (width > 1200px) {
+    @content;
   }
 }
 
 @mixin ultra-wide {
-  @media (min-width: 1920px) {
-    @content
+  @media (width > 1400px) {
+    @content;
   }
 }

@@ -1,0 +1,9 @@
+.main-nav {
+  .main-nav-logo {
+    width: 200px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

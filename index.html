@@ -5,20 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>De-Kaya Soğutma Sistemleri</title>
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <nav class="main-nav" aria-label="main navigation">
-    <div class="container">
+    <div class="container py-1">
       <a href="#">
-        <img src="/images/dekaya-logo.png" alt="">
+        <img class="main-nav-logo" src="/images/dekaya-logo.png" alt="">
       </a>
-      <ul class="main-menu">
-        <li class="nav-links">Anasayfa</li>
-        <li class="nav-links">Hakkımızda</li>
-        <li class="nav-links">Hizmetlerimiz</li>
-        <li class="nav-links">Referanslar</li>
-        <li class="nav-links">İletişim</li>
+      <ul id="main-menu" class="main-menu flex">
+        <li>
+          <a href="#" class="nav link">Anasayfa</a>
+        </li>
+        <li>
+          <a href="#" class="nav link">Hakkımızda</a>
+        </li>
+        <li>
+          <a href="#" class="nav link">Hizmetlerimiz</a>
+        </li>
+        <li>
+          <a href="#" class="nav link">Referanslar</a>
+        </li>
+        <li>
+          <a href="#" class="nav link">İletişim</a>
+        </li>
       </ul>
+      <button class="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toogle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
   </nav>
 </body>
