@@ -17,8 +17,8 @@
     }
     .main-menu {
       position: fixed;
-      top: 3rem;
-      right: 0;
+      top: 10rem;
+      left: 100%;
       gap: 0;
       flex-direction: column;
       width: 50%;
@@ -26,12 +26,16 @@
       transition: 0.8s;
     }
     .nav-item {
-      margin: 1rem 0;
+      margin: .7rem 0;
     }
     .main-menu.active {
-     left: 100%;
+     left: 50%;
      transform: translateY(30px);
      animation-delay: 500ms;
+    }
+    .contactInfoList {
+      flex-direction: column;
+      align-items: start;
     }
 }
 

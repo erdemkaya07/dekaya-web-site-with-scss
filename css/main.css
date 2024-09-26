@@ -41,7 +41,7 @@ li {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-html, body, section, div, header, footer, main, aside, nav, blockquote, p, span {
+html, body, section, div, header, footer, main, aside, nav, blockquote, p, span, ul {
   margin: 0;
   padding: 0;
 }
@@ -117,7 +117,7 @@ a:hover, a:focus {
 
 :root {
   --color-default: #006cd8;
-  --color-primary: #007FFF;
+  --color-primary: #006edc;
   --color-primary-light: #3b9dff;
   --color-primary-dark: #0059b3;
   --color-secondary: #001f3f;
