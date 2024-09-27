@@ -4,8 +4,14 @@ li {
   list-style: none;
 }
 
-.py-1 {
-  padding-block: 1rem;
+.line-height {
+  line-height: 1.5rem;
+}
+
+.grid-2fr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .flex {
@@ -15,6 +21,12 @@ li {
   gap: 1rem;
 }
 
+/* Positions */
+.relative {
+  position: relative;
+}
+
+/* Font sizes */
 .fs-0 {
   font-size: 0.7rem;
 }
@@ -27,8 +39,128 @@ li {
   font-size: 1.5rem;
 }
 
+/* Paddings  */
 .pr-0 {
   padding-right: 0.7rem;
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.pr-2 {
+  padding-right: 1.5rem;
+}
+
+.pr-3 {
+  padding-right: 2rem;
+}
+
+.pr-4 {
+  padding-right: 2.5rem;
+}
+
+.py-0 {
+  padding-block: 0.5rem;
+}
+
+.py-1 {
+  padding-block: 1rem;
+}
+
+.py-2 {
+  padding-block: 1.5rem;
+}
+
+.py-3 {
+  padding-block: 2rem;
+}
+
+.pb-0 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 2rem;
+}
+
+/* Margins */
+.mb-0 {
+  margin-block: 0.5rem;
+}
+
+.mb-1 {
+  margin-block: 1rem;
+}
+
+.mb-2 {
+  margin-block: 1.5rem;
+}
+
+.mb-3 {
+  margin-block: 2rem;
+}
+
+.mb-4 {
+  margin-block: 2.5em;
+}
+
+.mb-5 {
+  margin-block: 3rem;
+}
+
+.mb-6 {
+  margin-block: 3.5rem;
+}
+
+.mb-7 {
+  margin-block: 4rem;
+}
+
+.mb-8 {
+  margin-block: 4.5rem;
+}
+
+.mb-9 {
+  margin-block: 5rem;
+}
+
+.mb-10 {
+  margin-block: 9rem;
+}
+
+/* Text Align */
+.text-center {
+  text-align: center;
+  text-wrap: balance;
+}
+
+.text-start {
+  text-align: start;
+  text-wrap: balance;
+}
+
+.text-end {
+  text-align: end;
+  text-wrap: balance;
+}
+
+/* H etikketter */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -41,7 +173,7 @@ li {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-html, body, section, div, header, footer, main, aside, nav, blockquote, p, span, ul {
+html, body, section, div, header, footer, main, aside, nav, blockquote, p, span, ul, h1 {
   margin: 0;
   padding: 0;
 }
@@ -120,6 +252,27 @@ a:hover, a:focus {
   border: 0;
   font-size: 1.3rem;
   cursor: pointer;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  padding: 0.9em 3em;
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-accent);
+  color: var(--color-white);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--color-secondary);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 :root {

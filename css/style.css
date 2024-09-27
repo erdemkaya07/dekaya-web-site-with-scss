@@ -1,11 +1,12 @@
 .main-nav {
+  position: sticky;
+  z-index: 1;
   .main-nav-logo {
     width: 200px;
   }
   .container {
     display: flex;
     justify-content: space-between;
-    position: relative;
   }
   .menu-btn {
     display: none;
@@ -40,4 +41,30 @@
   }
 }
 
+/* Banner Start */
+.bannerSection {
+  .bannerRight {
+    flex-direction: column;
+    h1,h2,h3,p {
+      animation-duration: 3s;
+      animation-name: move;
+    }
+    button {
+      margin-top: 5rem;
+    }
+  }
+}
+
 /* Animations */
+
+
+@keyframes move {
+  0%
+  {
+    transform: translateY(-200%);
+    top: 0%;
+  }
+  100% {
+    top: 100%;
+  }
+}

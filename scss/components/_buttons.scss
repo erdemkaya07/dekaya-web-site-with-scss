@@ -5,3 +5,22 @@
   font-size: 1.3rem;
   cursor: pointer;
 }
+
+.btn {
+  @include text;
+  font-size: 1rem;
+  padding: .9em 3em;
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-accent);
+  color: var(--color-white);
+  &:hover, &:focus {
+    background-color: var(--color-secondary);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+}
