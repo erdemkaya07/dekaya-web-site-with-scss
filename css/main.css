@@ -98,13 +98,20 @@ a {
   font-weight: 500;
   font-style: normal;
   text-decoration: none;
-  color: var(--color-primary);
-  transition: all 0.8s ease-in-out;
+  color: var(--color-secondary);
 }
 a:hover, a:focus {
   text-decoration: underline;
+  color: var(--color-primary);
+  transition: all 0.4s ease-in-out;
+}
+
+.socialMedia ul li i {
   color: var(--color-secondary);
-  transition: all 0.8s ease-in-out;
+}
+.socialMedia ul li i:hover, .socialMedia ul li i:focus {
+  color: var(--color-primary);
+  transition: all 0.4s ease-in-out;
 }
 
 .menu-btn {
@@ -122,6 +129,12 @@ a:hover, a:focus {
   --color-primary-dark: #0059b3;
   --color-secondary: #001f3f;
   --color-accent: #cddbe9;
+  --color-white: #fff;
+  --box-shadow: 0 2px #00000012;
+}
+
+.box-shadow-primary {
+  box-shadow: var(--box-shadow);
 }
 
 .bg-default {
@@ -146,6 +159,10 @@ a:hover, a:focus {
 
 .bg-accent {
   background-color: var(--color-accent);
+}
+
+.bg-white {
+  background-color: var(--color-white);
 }
 
 .default {

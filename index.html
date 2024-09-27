@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="main-nav" aria-label="main navigation">
-    <section class="navSection-top bg-accent fs-0" aria-label="main navigation top menu">
+    <section class="navSection-top bg-accent fs-0 box-shadow-primary" aria-label="main navigation top menu">
       <div class="container py-1">
         <div class="contactInfo">
           <ul class="contactInfoList flex" aria-label="Contact info">
@@ -27,32 +27,40 @@
         </div>
       </div>
     </section>
-    <div class="container py-1">
-      <a href="#">
-        <img class="main-nav-logo" src="/images/dekaya-logo.png" alt="De-Kaya logo">
-      </a>
-      <ul id="main-menu" class="main-menu flex" aria-label="main menu">
-        <li class="nav-item" aria-label="main menu links">
-          <a href="#" class="nav-link">Anasayfa</a>
-        </li>
-        <li class="nav-item" aria-label="main menu links">
-          <a href="#" class="nav-link">Hakkımızda</a>
-        </li>
-        <li class="nav-item" aria-label="main menu links">
-          <a href="#" class="nav-link">Hizmetlerimiz</a>
-        </li>
-        <li class="nav-item" aria-label="main menu links">
-          <a href="#" class="nav-link">Referanslar</a>
-        </li>
-        <li class="nav-item" aria-label="main menu links">
-          <a href="#" class="nav-link">İletişim</a>
-        </li>
-      </ul>
-      <button class="menu-btn" aria-label="menu button for mobile">
-        <i class="fa-solid fa-bars menu-btn-icon"></i>
-      </button>
-    </div>
+    <section class="navSection-down bg-white box-shadow-primary" aria-label="main navigation down menu">
+      <div class="container py-1">
+        <a href="#">
+          <img class="main-nav-logo" src="/images/dekaya-logo.png" alt="De-Kaya logo">
+        </a>
+        <ul id="main-menu" class="main-menu flex" aria-label="main menu">
+          <li class="nav-item" aria-label="main menu links">
+            <a href="#" class="nav-link">Anasayfa</a>
+          </li>
+          <li class="nav-item" aria-label="main menu links">
+            <a href="#" class="nav-link">Hakkımızda</a>
+          </li>
+          <li class="nav-item" aria-label="main menu links">
+            <a href="#" class="nav-link">Hizmetlerimiz</a>
+          </li>
+          <li class="nav-item" aria-label="main menu links">
+            <a href="#" class="nav-link">Referanslar</a>
+          </li>
+          <li class="nav-item" aria-label="main menu links">
+            <a href="#" class="nav-link">İletişim</a>
+          </li>
+        </ul>
+        <button class="menu-btn" aria-label="menu button for mobile">
+          <i class="fa-solid fa-bars menu-btn-icon"></i>
+        </button>
+      </div>
+    </section>
   </nav>
+
+  <main>
+    <section id="bannerSection" class="bannerSection">
+      
+    </section>
+  </main>
 
 
   <script src="scripts.js"></script>
