@@ -25,6 +25,9 @@
       width: 50%;
       text-align: center;
       transition: 0.8s;
+      background-color: var(--color-white);
+      padding-block: 3rem;
+      box-shadow: var(--box-shadow);
     }
     .nav-item {
       margin: .7rem 0;
@@ -43,6 +46,12 @@
 
 /* Banner Start */
 .bannerSection {
+  .container {
+    @media (width < 922px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   .bannerRight {
     flex-direction: column;
     h1,h2,h3,p {
@@ -50,7 +59,10 @@
       animation-name: move;
     }
     button {
-      margin-top: 5rem;
+      margin-top: 4rem;
+      @media (width < 922px) {
+        margin-top: 1rem;
+      }
     }
   }
 }
