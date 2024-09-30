@@ -1,10 +1,14 @@
 li {
   list-style: none;
-
 }
 
 .line-height {
   line-height: 1.5rem;
+}
+
+.grid-1fr {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .grid-2fr {
@@ -12,7 +16,31 @@ li {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   @media (width < 992px) {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-4fr {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  @media (width < 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (width < 540px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-3fr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  @media (width < 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (width < 540px) {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -22,15 +50,24 @@ li {
   justify-content: center;
   gap: 1rem;
 }
+
+.flex-direction {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 /* Positions */
 .relative {
   position: relative;
 }
 
-
 /* Font sizes */
 .fs-0 {
-  font-size: .7rem;
+  font-size: 0.5rem;
+}
+.fs-08 {
+  font-size: 0.8rem;
 }
 .fs-1 {
   font-size: 1rem;
@@ -41,8 +78,27 @@ li {
 }
 
 /* Paddings  */
+.pd-0 {
+  padding: 0.7rem;
+}
+.pd-1 {
+  padding: 1rem;
+}
+.pd-2 {
+  padding: 1.5rem;
+}
+.pd-3 {
+  padding: 2rem;
+}
+.pd-4 {
+  padding: 2.5rem;
+}
+.pd-5 {
+  padding: 3rem;
+}
+
 .pr-0 {
-  padding-right: .7rem;
+  padding-right: 0.7rem;
 }
 .pr-1 {
   padding-right: 1rem;
@@ -55,6 +111,22 @@ li {
 }
 .pr-4 {
   padding-right: 2.5rem;
+}
+
+.pl-0 {
+  padding-left: 0.7rem;
+}
+.pl-1 {
+  padding-left: 1rem;
+}
+.pl-2 {
+  padding-left: 1.5rem;
+}
+.pl-3 {
+  padding-left: 2rem;
+}
+.pl-4 {
+  padding-left: 2.5rem;
 }
 
 .py-0 {
@@ -71,7 +143,7 @@ li {
 }
 
 .pb-0 {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 .pb-1 {
   padding-bottom: 1rem;
@@ -82,7 +154,15 @@ li {
 .pb-3 {
   padding-bottom: 2rem;
 }
-
+.pb-4 {
+  padding-bottom: 2.5rem;
+}
+.pb-5 {
+  padding-bottom: 3rem;
+}
+.pb-6 {
+  padding-bottom: 3.5rem;
+}
 
 /* Margins */
 .mb-0 {

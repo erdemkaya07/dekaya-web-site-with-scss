@@ -72,7 +72,6 @@
 }
 /* Banner End */
 /* Scroll Text Start */
-
 #scrollText {
   .container {
     .textDetails {
@@ -82,6 +81,34 @@
     }
   }
 }
+/* Scroll Text End */
+/* Our Services Start */
+#ourServices {
+  .services {
+    .serviceCard {
+      transform: scale(1);
+      padding: 1rem;
+      box-shadow: 0 5px 5px 5px #00000011;
+      &:hover {
+        transform: scale(1.1);
+        transition: all .5s;
+      }
+      .cardImg {
+        img {
+          aspect-ratio: 1;
+          object-fit: contain;
+          width: 100%;
+        }
+      }
+      .cardDetails {
+        h3 {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+/* Our Services Start */
 
 /* Animations */
 
@@ -94,3 +121,4 @@
     top: 100%;
   }
 }
+
