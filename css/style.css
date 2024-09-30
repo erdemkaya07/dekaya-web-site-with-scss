@@ -30,12 +30,12 @@
       box-shadow: var(--box-shadow);
     }
     .nav-item {
-      margin: .7rem 0;
+      margin: 0.7rem 0;
     }
     .main-menu.active {
-     left: 50%;
-     transform: translateY(30px);
-     animation-delay: 500ms;
+      left: 50%;
+      transform: translateY(30px);
+      animation-delay: 500ms;
     }
     .contactInfoList {
       flex-direction: column;
@@ -46,6 +46,7 @@
 
 /* Banner Start */
 .bannerSection {
+  box-shadow: var(--box-shadow);
   .container {
     @media (width < 922px) {
       display: flex;
@@ -54,7 +55,10 @@
   }
   .bannerRight {
     flex-direction: column;
-    h1,h2,h3,p {
+    h1,
+    h2,
+    h3,
+    p {
       animation-duration: 3s;
       animation-name: move;
     }
@@ -66,13 +70,23 @@
     }
   }
 }
+/* Banner End */
+/* Scroll Text Start */
+
+#scrollText {
+  .container {
+    .textDetails {
+      text-transform: uppercase;
+      font-weight: 500;
+      gap: 6em;
+    }
+  }
+}
 
 /* Animations */
 
-
 @keyframes move {
-  0%
-  {
+  0% {
     transform: translateY(-200%);
     top: 0%;
   }
