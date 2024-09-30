@@ -139,6 +139,22 @@
  }
  /* Our Us Section END */
 
+ /* Footer Links Start */
+.footerDetails {
+  @media (width < 992px) {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 75%;
+  }
+  .footerLinks,
+  .footerContact {
+    h3 {
+      border-bottom: 1px solid var(--color-primary-dark);
+    }
+  }
+}
 /* Animations */
 
 @keyframes move {
