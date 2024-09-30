@@ -44,6 +44,14 @@
   }
 }
 
+.sectionHeader {
+  div {
+    width: 25%;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--color-primary-dark);
+  }
+}
+
 /* Banner Start */
 .bannerSection {
   box-shadow: var(--box-shadow);
@@ -100,15 +108,36 @@
           width: 100%;
         }
       }
-      .cardDetails {
-        h3 {
-          font-size: 0.8rem;
-        }
-      }
     }
   }
 }
-/* Our Services Start */
+/* Our Services End */
+
+/* Our Us Section Start */
+ #ourUs{
+  .detailsLeft{
+    border-left: 1px solid var(--color-primary-dark);
+    .leftCard {
+      justify-content: start !important;
+      &:hover {
+        transform: scale(1.1);
+        transition: all .5s;
+        cursor: pointer;
+      }
+      @media (width < 992px) {
+        justify-content: start !important;
+      }
+      .cardIcon {
+        width: 32px;
+        height: 32px;
+        background-color: var(--color-primary);
+        color: var(--color-white);
+        border-radius: 50%;
+      }
+    }
+  }
+ }
+ /* Our Us Section END */
 
 /* Animations */
 

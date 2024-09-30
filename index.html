@@ -1,182 +1,351 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>De-Kaya Soğutma Sistemleri</title>
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/style.css">
-  
-</head>
-<body>
-  <nav class="main-nav" aria-label="main navigation">
-    <section class="navSection-top bg-accent fs-08 box-shadow-primary" aria-label="main navigation top menu">
-      <div class="container py-1 relative">
-        <div class="contactInfo">
-          <ul class="contactInfoList flex" aria-label="Contact info">
-            <li aria-label="phone number"><i class="fa-solid fa-phone-volume pr-0"></i>Telefon: 0542 533 5292</li>
-            <li aria-label="E-mail"><i class="fa-solid fa-envelope-open-text pr-0"></i>E-posta: ekrem.kaya@de-kaya.com</li>
-            <li aria-label="Working time"><i class="fa-solid fa-clock pr-0"></i>Çalışma Saatleri: 08:00 - 22:00</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De-Kaya Soğutma Sistemleri</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav class="main-nav" aria-label="main navigation">
+      <section
+        class="navSection-top bg-accent fs-08 box-shadow-primary"
+        aria-label="main navigation top menu"
+      >
+        <div class="container py-1 relative">
+          <div class="contactInfo">
+            <ul class="contactInfoList flex" aria-label="Contact info">
+              <li aria-label="phone number">
+                <i class="fa-solid fa-phone-volume pr-0"></i>Telefon: 0542 533
+                5292
+              </li>
+              <li aria-label="E-mail">
+                <i class="fa-solid fa-envelope-open-text pr-0"></i>E-posta:
+                ekrem.kaya@de-kaya.com
+              </li>
+              <li aria-label="Working time">
+                <i class="fa-solid fa-clock pr-0"></i>Çalışma Saatleri: 08:00 -
+                22:00
+              </li>
+            </ul>
+          </div>
+          <div class="socialMedia">
+            <ul class="flex" aria-label="Social media icons">
+              <li aria-label="Social media facebook">
+                <a href="#" aria-label="Social media facebook"
+                  ><i class="fa-brands fa-facebook fs-1 secondary"></i
+                ></a>
+              </li>
+              <li aria-label="Social media instagram">
+                <a href="#" aria-label="Social media facebook"
+                  ><i class="fa-brands fa-instagram fs-1 secondary"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        class="navSection-down bg-white box-shadow-primary"
+        aria-label="main navigation down menu"
+      >
+        <div class="container py-1 relative">
+          <a href="#">
+            <img
+              class="main-nav-logo"
+              src="/images/dekaya-logo.png"
+              alt="De-Kaya logo"
+            />
+          </a>
+          <ul id="main-menu" class="main-menu flex" aria-label="main menu">
+            <li class="nav-item" aria-label="main menu links">
+              <a href="#" class="nav-link">Anasayfa</a>
+            </li>
+            <li class="nav-item" aria-label="main menu links">
+              <a href="#" class="nav-link">Hakkımızda</a>
+            </li>
+            <li class="nav-item" aria-label="main menu links">
+              <a href="#" class="nav-link">Hizmetlerimiz</a>
+            </li>
+            <li class="nav-item" aria-label="main menu links">
+              <a href="#" class="nav-link">Referanslar</a>
+            </li>
+            <li class="nav-item" aria-label="main menu links">
+              <a href="#" class="nav-link">İletişim</a>
+            </li>
           </ul>
+          <button class="menu-btn" aria-label="menu button for mobile">
+            <i class="fa-solid fa-bars menu-btn-icon"></i>
+          </button>
         </div>
-        <div class="socialMedia">
-          <ul class="flex" aria-label="Social media icons">
-            <li aria-label="Social media facebook"><a href="#" aria-label="Social media facebook"><i class="fa-brands fa-facebook fs-1 secondary"></i></a></li>
-            <li aria-label="Social media instagram"><a href="#" aria-label="Social media facebook"><i class="fa-brands fa-instagram fs-1 secondary"></i></a></li>
-          </ul>
+      </section>
+    </nav>
+
+    <main aria-label="Main area">
+      <section
+        id="bannerSection"
+        class="bannerSection py-2"
+        aria-label="Banner section"
+      >
+        <div class="container grid-2fr mb-3">
+          <div class="bannerRight flex">
+            <div class="bannerRight-text">
+              <h1 class="text-center pb-1">De-Kaya Soğutma Sistemleri</h1>
+              <h3 class="text-center pb-1">7 Gün 24 Saat Servis Hizmeti</h3>
+              <p class="text-center pb-1 pr-3" aria-label="Banner paragraph">
+                Hizmetlerimiz ve işletmemiz hakkında daha detaylı bilgi almak
+                için lütfen bizimle iletişime geçin.
+              </p>
+            </div>
+            <button class="btn btn-primary" aria-label="Contact button">
+              İletişim
+            </button>
+          </div>
+
+          <div class="bannerLeft flex">
+            <img
+              src="/images/coolingroom.jpg"
+              alt="De-Kaya soğuk hava deposu imalat bakım"
+            />
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="navSection-down bg-white box-shadow-primary" aria-label="main navigation down menu">
-      <div class="container py-1 relative">
-        <a href="#">
-          <img class="main-nav-logo" src="/images/dekaya-logo.png" alt="De-Kaya logo">
-        </a>
-        <ul id="main-menu" class="main-menu flex" aria-label="main menu">
-          <li class="nav-item" aria-label="main menu links">
-            <a href="#" class="nav-link">Anasayfa</a>
-          </li>
-          <li class="nav-item" aria-label="main menu links">
-            <a href="#" class="nav-link">Hakkımızda</a>
-          </li>
-          <li class="nav-item" aria-label="main menu links">
-            <a href="#" class="nav-link">Hizmetlerimiz</a>
-          </li>
-          <li class="nav-item" aria-label="main menu links">
-            <a href="#" class="nav-link">Referanslar</a>
-          </li>
-          <li class="nav-item" aria-label="main menu links">
-            <a href="#" class="nav-link">İletişim</a>
-          </li>
-        </ul>
-        <button class="menu-btn" aria-label="menu button for mobile">
-          <i class="fa-solid fa-bars menu-btn-icon"></i>
-        </button>
-      </div>
-    </section>
-  </nav>
+      </section>
 
-  <main aria-label="Main area">
-    <section id="bannerSection" class="bannerSection py-2" aria-label="Banner section">
-      <div class="container grid-2fr mb-3">
-        <div class="bannerRight flex">
-          <div class="bannerRight-text">
-            <h1 class="text-center pb-1">De-Kaya Soğutma Sistemleri</h1>
-            <h3 class="text-center pb-1">7 Gün 24 Saat Servis Hizmeti</h3>
-            <p class="text-center pb-1 pr-3" aria-label="Banner paragraph">Hizmetlerimiz ve işletmemiz hakkında daha detaylı bilgi almak için lütfen bizimle iletişime geçin. </p>
-          </div>
-          <button class="btn btn-primary" aria-label="Contact button">İletişim</button>
+      <section
+        id="scrollText"
+        class="scrollText py-2 bg-primary-dark white text-end"
+        aria-label="Scroll text"
+      >
+        <div class="container">
+          <marquee behavior="scroll" direction="left" scrollamount="5">
+            <div class="textDetails flex">
+              <p>
+                Soğuk Hava Odaları - Projelendirme, İmalat, Bakım ve Servisi
+              </p>
+              <p>
+                Ticari Buzdolapları - Projelendirme, İmalat, Bakım ve Servisi
+              </p>
+              <p>Soğutma grupları servis ve bakımı</p>
+              <p>Seyyar Soğutma odaları imalat, servis ve Kiralama Hizmeti</p>
+              <p>Buz makineleri Servis hizmeti</p>
+              <p>Açık tezgah sunum soğutma ürünleri</p>
+            </div>
+          </marquee>
         </div>
-        
-        <div class="bannerLeft flex">
-          <img src="/images/coolingroom.jpg" alt="De-Kaya soğuk hava deposu imalat bakım">
+      </section>
+
+      <section
+        id="ourServices"
+        class="ourServices mb-8"
+        aria-label="Our services section"
+      >
+        <div class="container">
+          <div class="sectionHeader text-center pb-5">
+            <h1 class="pb-1">Hizmetlerimiz</h1>
+            <div class="headerSpan"></div>
+          </div>
+          <div class="services grid-3fr">
+            <div class="serviceCard grid-1fr">
+              <div class="cardImg">
+                <img src="/images/coolingroom.jpg" alt="Soğuk hava odası" />
+              </div>
+              <div class="cardDetails flex-direction pb-1">
+                <h3 class="text-start">Soğuk Hava Depoları Hakkında</h3>
+                <p class="fs-08">
+                  De-Kaya soğutma sistemleri olarak, Soğuk Hava Deposu satış,
+                  montaj, arıza, ve bakım hizmeti vermekteyiz.
+                </p>
+                <a class="fs-08" href="#"
+                  >Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="serviceCard grid-1fr">
+              <div class="cardImg">
+                <img
+                  src="/images/ticari-buzdolap.jpg"
+                  alt="Ticari buzdolap resim"
+                />
+              </div>
+              <div class="cardDetails flex-direction pb-1">
+                <h3 class="text-start">Ticari Buzdolapları Hakkında</h3>
+                <p class="fs-08">
+                  De-Kaya soğutma sistemleri olarak, Ticari Buzdolapları satış,
+                  montaj, arıza, ve bakım hizmeti vermekteyiz.
+                </p>
+                <a class="fs-08" href="#"
+                  >Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="serviceCard grid-1fr">
+              <div class="cardImg">
+                <img src="/images/service.png" alt="Servis hizmetleri resim" />
+              </div>
+              <div class="cardDetails flex-direction pb-1">
+                <h3 class="text-start">Servis Hizmetleri</h3>
+                <p class="fs-08">
+                  De-Kaya Soğutma sistemleri olarak 7 gün 24 saat servis
+                  hizmetimiz bulunmaktadır. Müşterilerimiz 0542 533 5292
+                  hattında servis bize ulaşabilirsiniz.
+                </p>
+                <a class="fs-08" href="#"
+                  >Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="serviceCard grid-1fr">
+              <div class="cardImg">
+                <img
+                  src="/images/seyyarsogutma.jpg"
+                  alt="Seyyat soğutma odaları"
+                />
+              </div>
+              <div class="cardDetails flex-direction pb-1">
+                <h3 class="text-start">Seyyar Soğutma Odaları</h3>
+                <p class="fs-08">
+                  İşletmelere, düğünlere, mevlüt ve tüm organizasyonlara seyyar
+                  soğuk oda kiralama veya satış hizmeti
+                </p>
+                <a class="fs-08" href="#"
+                  >Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="serviceCard grid-1fr">
+              <div class="cardImg">
+                <img
+                  src="/images/kesif.jpg"
+                  alt="Keşif ve projelendirme resmi"
+                />
+              </div>
+              <div class="cardDetails flex-direction pb-1">
+                <h3 class="text-start">Keşif & Projelendirme Hizmetleri</h3>
+                <p class="fs-08">
+                  Firmamız soğuk oda taleplerine ve ticari buzdolap taleplerine
+                  ücretsiz keşif hizmeti sunmaktadır.
+                </p>
+                <a class="fs-08" href="#"
+                  >Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="serviceCard grid-1fr">
+              <div class="cardImg">
+                <img src="/images/buzmakinesi.jpg" alt="Buz makinesi resim" />
+              </div>
+              <div class="cardDetails flex-direction pb-1">
+                <h3 class="text-start">Keşif & Projelendirme Hizmetleri</h3>
+                <p class="fs-08">
+                  Marka ve Model farketmeksizin uzman kadromuzla Buz Makinası
+                  servisi sizlerin hizmetindedir.
+                </p>
+                <a class="fs-08" href="#"
+                  >Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="scrollText" class="scrollText py-2 bg-primary-dark white text-end" aria-label="Scroll text">
-      <div class="container">
-        <marquee behavior="scroll" direction="left" scrollamount="5">
-          <div class="textDetails flex">
-            <p>
-              Soğuk Hava Odaları - Projelendirme, İmalat, Bakım ve Servisi
-            </p>
-            <p>
-              Ticari Buzdolapları - Projelendirme, İmalat, Bakım ve Servisi
-            </p>
-            <p>
-              Soğutma grupları servis ve bakımı
-            </p>
-            <p>
-              Seyyar Soğutma odaları imalat, servis ve Kiralama Hizmeti
-            </p>
-            <p>
-              Buz makineleri Servis hizmeti
-            </p>
-            <p>
-              Açık tezgah sunum soğutma ürünleri
-            </p>
+      <section id="ourUs" class="ourUs">
+        <div class="container">
+          <div class="sectionHeader text-center pb-5">
+            <h1 class="pb-1">Hakkımızda</h1>
+            <div class="headerSpan"></div>
           </div>
-        </marquee>
-      </div>
-    </section>
+          <div class="ourUsDetails grid-2fr mb-3">
+            <div class="detailsRight flex-direction line-height">
+              <p>
+                De-Kaya Bilgi Teknolojileri ve Soğutma Sistemleri 30 yıllık iş
+                tecrübesinin vermiş olduğu alt yapıyla 2013 yılında limited
+                yapıya sahip bir işletme olarak sektördeki yerini almıştır.
+              </p>
+              <h2>Neler Yapıyoruz?</h2>
+              <p>
+                Soğuk Hava odaları imalat, bakım ve servisi. Ticari buzdolapları
+                satış, montaj, bakım ve servisi. Seyyar Soğutma odaları satış ve
+                kiralama hizmetleri. Tecrübeli ekibimizle 7 gün 24 saat servis hizmetimiz
+                bulunmaktadır. Muğla ve tüm ilçeleri, Kaş, Kalkan, Denizli,
+                Aydın ve müşterilerimizin talebi ve istediği olduğunda tüm
+                Türkiye'ye hizmet vermekteyiz.
+              </p>
+            </div>
+            <div class="detailsLeft grid-2fr pl-2">
+              <div class="leftCard flex relative">
+                <div class="cardIcon flex">
+                  <i class="fa-solid fa-face-smile"></i>
+                </div>
+                <div class="card-text">
+                  <p class="fs-1 bold">Memnuniyet</p>
+                  <p class="fs-08">%100 Müşteri Memnuniyeti</p>
+                </div>
+              </div>
 
-    <section id="ourServices" class="ourServices mb-5" aria-label="Our services section">
-      <div class="container">
-        <div class="services grid-3fr">
-          <div class="serviceCard grid-1fr">
-            <div class="cardImg">
-              <img src="/images/coolingroom.jpg" alt="Soğuk hava odası">
-            </div>
-            <div class="cardDetails flex-direction pb-1">
-              <h3 class="text-start">Soğuk Hava Depoları Hakkında</h3>
-              <p class="fs-08">De-Kaya soğutma sistemleri olarak, Soğuk Hava Deposu satış, montaj, arıza, ve bakım hizmeti vermekteyiz.</p>
-              <a class="fs-08" href="#">Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i></a>
-            </div>
-          </div>
+              <div class="leftCard flex relative">
+                <div class="cardIcon flex">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="card-text">
+                  <p class="fs-1 bold">Kalite</p>
+                  <p class="fs-08">Üstün Hizmet Kalitesi</p>
+                </div>
+              </div>
 
-          <div class="serviceCard grid-1fr">
-            <div class="cardImg">
-              <img src="/images/ticari-buzdolap.jpg" alt="Ticari buzdolap resim">
-            </div>
-            <div class="cardDetails flex-direction pb-1">
-              <h3 class="text-start">Ticari Buzdolapları Hakkında</h3>
-              <p class="fs-08">De-Kaya soğutma sistemleri olarak, Ticari Buzdolapları satış, montaj, arıza, ve bakım hizmeti vermekteyiz.</p>
-              <a class="fs-08" href="#">Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i></a>
-            </div>
-          </div>
+              <div class="leftCard flex relative">
+                <div class="cardIcon flex">
+                  <i class="fa-solid fa-people-group"></i>
+                </div>
+                <div class="card-text">
+                  <p class="fs-1 bold">Ekip</p>
+                  <p class="fs-08">İşinde Uzman Profesyonel Kadro</p>
+                </div>
+              </div>
 
-          <div class="serviceCard grid-1fr">
-            <div class="cardImg">
-              <img src="/images/service.png" alt="Servis hizmetleri resim">
-            </div>
-            <div class="cardDetails flex-direction pb-1">
-              <h3 class="text-start">Servis Hizmetleri</h3>
-              <p class="fs-08">De-Kaya Soğutma sistemleri olarak 7 gün 24 saat servis hizmetimiz bulunmaktadır. Müşterilerimiz 0542 533 5292  hattında servis bize ulaşabilirsiniz. </p>
-              <a class="fs-08" href="#">Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i></a>
-            </div>
-          </div>
+              <div class="leftCard flex relative">
+                <div class="cardIcon flex">
+                  <i class="fa-solid fa-people-arrows"></i>
+                </div>
+                <div class="card-text">
+                  <p class="fs-1 bold">Referanslar</p>
+                  <p class="fs-08">Kurumsal onlarca referans</p>
+                </div>
+              </div>
 
-          <div class="serviceCard grid-1fr">
-            <div class="cardImg">
-              <img src="/images/seyyarsogutma.jpg" alt="Seyyat soğutma odaları">
-            </div>
-            <div class="cardDetails flex-direction pb-1">
-              <h3 class="text-start">Seyyar Soğutma Odaları</h3>
-              <p class="fs-08">İşletmelere, düğünlere, mevlüt ve tüm organizasyonlara seyyar soğuk oda kiralama veya satış hizmeti</p>
-              <a class="fs-08" href="#">Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i></a>
-            </div>
-          </div>
+              <div class="leftCard flex relative">
+                <div class="cardIcon flex">
+                  <i class="fa-solid fa-handshake"></i>
+                </div>
+                <div class="card-text">
+                  <p class="fs-1 bold">Güven</p>
+                  <p class="fs-08">Kaliteli ve garantili hizmet</p>
+                </div>
+              </div>
 
-          <div class="serviceCard grid-1fr">
-            <div class="cardImg">
-              <img src="/images/kesif.jpg" alt="Keşif ve projelendirme resmi">
-            </div>
-            <div class="cardDetails flex-direction pb-1">
-              <h3 class="text-start">Keşif & Projelendirme Hizmetleri</h3>
-              <p class="fs-08">Firmamız soğuk oda taleplerine ve ticari buzdolap taleplerine ücretsiz keşif hizmeti sunmaktadır.</p>
-              <a class="fs-08" href="#">Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i></a>
-            </div>
-          </div>
+              <div class="leftCard flex relative">
+                <div class="cardIcon flex">
+                  <i class="fa-solid fa-gauge-high"></i>
+                </div>
+                <div class="card-text">
+                  <p class="fs-1 bold">Hızlı Servis Hizmeti</p>
+                  <p class="fs-08">Arızalara hızlı müdahale</p>
+                </div>
+              </div>
 
-          <div class="serviceCard grid-1fr">
-            <div class="cardImg">
-              <img src="/images/buzmakinesi.jpg" alt="Buz makinesi resim">
-            </div>
-            <div class="cardDetails flex-direction pb-1">
-              <h3 class="text-start">Keşif & Projelendirme Hizmetleri</h3>
-              <p class="fs-08">Marka ve Model farketmeksizin uzman kadromuzla Buz Makinası servisi sizlerin hizmetindedir.</p>
-              <a class="fs-08" href="#">Devamını gör<i class="fa-solid fa-arrow-right pl-0"></i></a>
+
             </div>
           </div>
-
-
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-
-  <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>

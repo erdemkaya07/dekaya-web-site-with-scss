@@ -14,7 +14,7 @@ li {
 .grid-2fr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 2rem;
   @media (width < 992px) {
     grid-template-columns: 1fr;
   }
@@ -55,6 +55,12 @@ li {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+/* Font Stills */
+
+.bold {
+  font-weight: 700;
 }
 
 /* Positions */
